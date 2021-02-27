@@ -2,17 +2,12 @@
 /**
  *
  * HX711 library for Arduino - example file
- * https://github.com/bogde/HX711
- * MIT License
- * (c) 2018 Bogdan Necula
- *
-**/
+ * MIT License**/
 #include "HX711.h"
 
 // HX711 circuit wiring
 const int LOADCELL_DOUT_PIN = 2;
 const int LOADCELL_SCK_PIN = 3;
-
 
 HX711 scale;
 
